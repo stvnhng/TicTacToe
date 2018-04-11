@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*FLEX BOX CSS*/
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 5em;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 5em;
+}
+
+.row3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 5em;
+}
+
+.horizontal {
+  background-color: black;
+  width: 360px;
+  height: 12px;
+
+}
+
+.vertical {
+  background-color: black;
+  width: 12px;
+  height: 120px;
+}
+
+#cell0 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+#cell1 {
+  flex-grow: 1;
+  text-align: center;
+
+}
+
+#cell2 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+#cell3 {
+  flex-grow: 1;
+  text-align: center;
+
+}
+
+#cell4 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+#cell5 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+#cell6 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+#cell7 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+#cell8 {
+  flex-grow: 1;
+  text-align: center;
+}
