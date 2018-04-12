@@ -11,7 +11,7 @@
   background-color: #222;
   height: 150px;
   padding: 20px;
-  color: white;
+  color: black;
 }
 
 .App-title {
@@ -27,94 +27,36 @@
   to { transform: rotate(360deg); }
 }
 
-/*FLEX BOX CSS*/
+button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 10px 23px;
+  font-size: 20px;
+}
 
 .container {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  align-items: center;
-  box-sizing: border-box;
+  width: 850px;
+  margin: 0 auto;
 }
 
-.row1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 5em;
+.menu {
+  text-align: center;
+  width: 90%;
 }
 
-.row2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-size: 5em;
-}
-
-.row3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-size: 5em;
-}
-
-.horizontal {
+body {
   background-color: black;
-  width: 360px;
-  height: 12px;
-
 }
 
-.vertical {
-  background-color: black;
-  width: 12px;
-  height: 120px;
+#title {
+  font-family: monospace;
+  font-size: 90px;
+  margin-bottom: 20px;
 }
 
-#cell0 {
-  flex-grow: 1;
-  text-align: center;
-}
-
-#cell1 {
-  flex-grow: 1;
-  text-align: center;
-
-}
-
-#cell2 {
-  flex-grow: 1;
-  text-align: center;
-}
-
-#cell3 {
-  flex-grow: 1;
-  text-align: center;
-
-}
-
-#cell4 {
-  flex-grow: 1;
-  text-align: center;
-}
-
-#cell5 {
-  flex-grow: 1;
-  text-align: center;
-}
-
-#cell6 {
-  flex-grow: 1;
-  text-align: center;
-}
-
-#cell7 {
-  flex-grow: 1;
-  text-align: center;
-}
-
-#cell8 {
-  flex-grow: 1;
+footer {
+  color: grey;
+  font-size: 10px;
   text-align: center;
 }
