@@ -39,9 +39,9 @@ export default class App extends Component {
 
     // function collects player's location and whosever turn it is
     updateBoard(loc, player) {
-      // if a tile is clicked and equals x or o or if there is a winner it is not valid play.
+      // if a tile is clicked and equals x or o or if there is a winner it is not valid play. prevents clicking on same tile.
       if(this.state.gameBoard[loc] === 'x' || this.state.gameBoard[loc] === 'o' || this.state.winner){
-        // invalid move so return
+        // invalid move so return.
         return;
       }
 
@@ -93,7 +93,7 @@ export default class App extends Component {
         this.setState({winner: this.state.turn});
         return;
       }
-      // join together all elements in the array and replace empty space with nothing
+      // join together all elements in the array and replace empty space with nothing. g defined in regex is a modifier used to find all matches rather than stopping after first match.
       let moves = this.state.gameBoard.join(' ').replace(/ /g, '');
       // if there are 9 moves, then set state of winner to draw
       if(moves.lengths === 9) {
