@@ -36,7 +36,7 @@
 //   }
 //   return false;
 // }
-
+//
 //
 // // Add X or O on alternation and check winner after turn.
 // function placeMarker(e) {
